@@ -57,7 +57,7 @@ main {
     height: 380px;
     background-color: var(--cor-fundo);
     grid-template-rows: 30px 1fr 100px 60px;
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-columns: 10% 1fr 15%;
 }
 
 .fundo01_ {
@@ -102,7 +102,7 @@ main {
 .bt01 {
     background-color: var(--cor-destaque);
     text-align: center;
-    width: 400px;
+    width: 80vw;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -123,7 +123,7 @@ main {
     color: var(--cor-destaque);
     font-weight: bold;
     text-align: center;
-    width: 400px;
+    width: 80vw;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;

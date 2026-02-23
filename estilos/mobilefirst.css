@@ -16,8 +16,8 @@
     --cor-fundo-maior: #0C1114;
 }
 
-body {
-
+body, html {
+    width: 100vw;
 }
 
 header#menu-container {

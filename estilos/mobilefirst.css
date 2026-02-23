@@ -144,11 +144,14 @@ span {
 
 .fundo02 {
     background-color: var(--cor-fundo-maior);
-    height: 300px;
+    height: 320px;
     display: block;
     align-content: center;
 }
 
+.ferramentas {
+    margin: 20px;
+}
 .ferra {
     color: var(--cor-texto-padrao);
     text-align: center;

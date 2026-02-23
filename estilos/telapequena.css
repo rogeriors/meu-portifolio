@@ -1,0 +1,76 @@
+/* menu hamburguinho */
+.nav-menu {
+    grid-area: 2 / 1 / 2 / -1;
+    display: none;
+    z-index: 10;
+    
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-fundo);
+}
+
+.nav-menu ul {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-menu li {
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+    padding: 10px;
+    font-weight: bold;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.nav-menu li:hover {
+    background-color: var(--cor-destaque-efeito);
+    color: var(--cor-texto-padrao);
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Mostra o menu quando a classe 'active' for adicionada */
+.nav-menu.active {
+  display: block;
+}
+
+
+/* FIM MENU */
+
+
+
+.soft {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+    width: 300px;
+    
+}
+
+.soft i{
+    background-color: var(--cor-fundo-maior);
+    width: 95px;
+    height: 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5em;
+    color: var(--cor-destaque);
+    margin: 10px;
+}
+
+.soft i:hover {
+    font-size: 6em;
+    width: 85px;
+}
+
+abbr {
+    text-decoration: none;
+}

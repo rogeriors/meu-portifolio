@@ -16,10 +16,6 @@
     --cor-fundo-maior: #0C1114;
 }
 
-body, html {
-    width: 100vw;
-}
-
 header#menu-container {
     display: grid;
     background-color: var(--cor-fundo);

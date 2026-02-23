@@ -122,15 +122,16 @@
     }
 
     .grid-ferra {
+        width: 100vw;
         display: grid;
         grid-template-columns: 1fr 6fr 1fr;
         background-color: var(--cor-fundo-maior);
     }
 
     .fundo02 {
+        width: 100vw;
         grid-area: 1 / 2 / 2 / 3;
         display: flex;
-        width: 100%;
         justify-content: center;
         align-items: center;
     }

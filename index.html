@@ -3,94 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rogerio Dev</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="style.css" media="screen and (min-width: 768px)">
     <script src="https://kit.fontawesome.com/293701f850.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="estilos/mobilefirst.css">
-    <link rel="stylesheet" href="estilos/telapequena.css" media="screen and (max-width: 767px)">
-    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 768px)">
 </head>
 <body>
-    <header id="menu-container">
-        <span class="material-symbols-outlined hamburger" id="hamburger">menu</span>
-        <nav class="nav-menu" id="nav-menu">
-            <ul type="none">
-            <a href="#menu-container" class="menuu"><li>Home</li></a>
-            <a href="#skills" class="menuu"><li>Skills</li></a>
-            <a href="#formacao" class="menuu"><li>Formação</li></a>
-            <a href="#projetos" class="menuu"><li>Projetos</li></a>
-            <a href="mailto:rogerio_r_s@hotmail.com.br" class="contatos"><li>Contato</li></a>
-            </ul> 
+    <header id="topo">
+        <nav class="menu">
+            <ul>
+                <a href="">
+                    <li class="menuhover">Home</li>
+                </a>
+                <a href="">
+                    <li class="menuhover">Skills</li>
+                </a>
+                <a href="">
+                    <li class="menuhover">Formação</li>
+                </a>
+                <a href="">
+                    <li class="menuhover">Projetos</li>
+                </a>
+                <a href="">
+                    <li class="contat">Contato</li>
+                </a>
+            </ul>
         </nav>
     </header>
-    <main>
-        <div class="fundo01">
-            <section class="text-top">
-                <h2>Olá, eu sou Rogério.</h2>
-                <h1>DESENVOLVEDOR FRONT-END</h1>
-                <p>Construindo a ponte perfeita entre o design visual e a funcionalidade técnica.</p>
-            </section>
-            <section class="botao01">
-                <p class="bt01">Ver Projetos</p>
-                <p class="bt02">Baixar CV</p>
-            </section>
-            <span class="material-symbols-outlined">arrow_cool_down</span>
+    <main id="conteudo">
+        <div class="boneco" id="boneco-interativo">
+            
         </div>
-
-        <div class="grid-ferra">
-            <div id="skills" class="fundo02">
-                    <div class="ferramentas">
-                        <section class="ferra">
-                            <h2>Skills</h2>
-                        </section>
-                        <section class="soft">
-                            <abbr title="HTML5"><i class="fa-brands fa-html5"></i></abbr>
-                            <abbr title="CSS3"><i class="fa-brands fa-css3-alt"></i></abbr>
-                        </section>
-                    </div>
-                <div class="ferramentas">
-                    <section class="apren ferra">
-                        <h2>Skills em Aprendizado</h2>
-                    </section>
-                    <section class="apren02 soft">
-                        <abbr title="JavScript"><i class="fa-brands fa-square-js"></i></abbr>
-                    </section>
-                </div>
+        <div class="informacoes">
+            <div class="inf">
+                <h1>Olá, eu sou <br> Rogério Santos </h1>
+                <h2>Desenvolvedor Front-end</h2>
+                <p>Construindo a ponte perfeita entre o design visual e a funcionalidade técnica.</p>
+            </div>
+            <div class="rede">
+                <a href="https://www.linkedin.com/in/rogeriosantosbr/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="https://github.com/rogeriors" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:rogerio_r_s@hotmail.com.br"><abbr title="E-mail: rogerio_r_s@hotmail.com.br"><i class="fa-regular fa-envelope"></i></abbr></a>
             </div>
         </div>
-
-        <div class="fundo01_" id="formacao">
-
-        </div>
-
-        <div class="fundo02" id="projetos">
-
-        </div>
+        <img src="imagens/boneco5.png" alt="" class="img">
     </main>
-
-
-    <footer>
-        <p>&#169; 2025 Rogéro Santos </p>
-    </footer>
-
-
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navMenu = document.getElementById('nav-menu');
-        const navLinks = document.querySelectorAll('.nav-menu a');
-
-        // Abre/fecha o menu ao clicar no ícone
-        hamburger.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-        });
-
-        // Fecha o menu ao clicar em um link
-        navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-        });
-        });
-        
-    </script>
 </body>
+<script src="script.js"></script>
 </html>
